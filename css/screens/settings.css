@@ -1,0 +1,21 @@
+.settings-list{
+    margin-bottom: 24px;
+}
+.settings__setting{
+    padding: 20px 0;
+    border-bottom: var(--main-border);
+    background-color: white;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+.settings__setting i{
+    margin-right: 24px;
+    color: rgb(103, 103, 103);
+}
+.settings__setting span{
+    font-size: 18px;
+}
+.settings__setting:hover{
+    background-color: rgb(244, 244, 244);
+}

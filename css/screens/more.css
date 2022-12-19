@@ -1,0 +1,33 @@
+.more-screen .user-component{
+    margin-bottom: 50px;
+}
+.more-screen .icon-row{
+    margin-bottom: 24px;
+}
+.more-suggestions{
+    margin-top: 36px;
+    border-top: var(--main-border);
+    padding: 36px 0px;
+}
+.more-suggetions__title{
+    font-weight: 600;
+    margin-bottom: 36px;
+}
+.more-suggestions__icons{
+    display: flex;
+}
+.more-suggestions__icon{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 32px;
+}
+.more-suggestions__icon-text{
+    font-size: 14px;
+}
+.more-suggestions__icon-image img{
+    width: 70px;
+    height: 70px;
+    border-radius: 10px;
+    margin-bottom: 12px;
+}

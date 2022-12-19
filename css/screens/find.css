@@ -1,0 +1,110 @@
+.recommended-friends{
+    padding: 24px 0px;
+    border-top: var(--main-border);
+    border-bottom: var(--main-border);
+    color: var(--grey);
+}
+.recommended-friends__title{
+    font-size: 14px;
+    color: var(--grey);
+}
+.recommended-friends span{
+    display: block;
+    margin: 100px 0px;
+    text-align: center;
+    color: var(--grey);
+    font-size: 16px;
+    font-weight: 500;
+}
+.open-chat__header{
+    margin-top: 24px;
+    display: flex;
+    justify-content: space-between;
+    color: var(--grey);
+    font-size: 14px;
+}
+.open-post{
+    margin-top: 36px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.open-post__title{
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+.open-post__hashtags{
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    color: var(--grey);
+}
+.open-post-members{
+    margin-top: 8px;
+    display: flex;
+    align-items: center;
+}
+.open-post-members img{
+    width: 24px;
+    height: 24px;
+    border: .2px rgb(224, 224, 224) solid;
+    border-radius: 50%;
+    margin-right: 8px;
+    display: flex;
+    justify-content: center;
+}
+.open-post__member-count{
+    color: var(--grey);
+    font-size: 14px;
+    margin-right: 8px;
+}
+.open-post__member-status{
+    color: var(--potzpink);
+    font-weight: 600;
+    font-size: 14px;
+}
+.open-post-members .divider{
+    background-color: var(--grey);
+    opacity: .9;
+    width: 1.2px;
+    height: 12px;
+    margin-right: 8px;
+}
+.open-post__photo{
+    position: relative;
+}
+.open-post__photo img{
+    width: 120px;
+    height: 120px;
+    border-radius: 10px;
+    position: relative;
+}
+.open-post__heart__count{
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 6px 8px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    bottom: 8px;
+    right: 4px;
+    font-size: 12px;
+}
+.open-post__heart__count span{
+    margin-left: 6px;
+}
+@keyframes heartbeat{
+    0%{
+        color: white;
+    }
+    50%{
+        color: tomato;
+    }
+    100%{
+        color: white;
+    }
+}
+.open-post__heart__count :hover{
+    will-change: transform;
+    animation: heartbeat 1s linear infinite;
+}

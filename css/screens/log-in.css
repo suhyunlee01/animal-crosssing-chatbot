@@ -1,0 +1,62 @@
+.welcome-header{
+    margin-top: 90px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.welcome-header__title{
+    margin-bottom: 30px;
+    font-size: 24px;
+    font-weight: 600;
+    color: var(--potzpink);
+}
+.welcome-header__text{
+    margin-bottom: 90px;
+    font-weight: 400;
+    font-size: 16px;
+    width: 60%;
+    color: rgba(0, 0, 0, 0.7);
+}
+#login-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0px 24px;
+}
+#login-form input{
+    border: none;
+    padding: 16px 0px;
+    font-size: 16px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+    margin-bottom: 24px;
+    transition: border-color .3s ease-in;
+}
+#login-form input::placeholder{
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 16px;
+    font-weight: 500;
+}
+#login-form input:focus{
+    border-color: var(--potzpink);
+}
+#login-form .buttons{
+    display: flex;
+    flex-direction: column;
+}
+#login-form .buttons input[type="submit"]{
+    border-bottom: none;
+    background-color: var(--potzpink);
+    cursor: pointer;
+    border-radius: 8px;
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+    margin-bottom: 8px;
+}
+#login-form .find-account{
+    margin-top: 12px;
+    text-align: center;
+    text-decoration: none;
+    color: inherit;
+    font-size: 16px;
+}
